@@ -159,7 +159,6 @@ h3,h1 {
 	<?php
 		require('db.php');
 		// if form submitted, insert values into the database.
-		date_default_timezone_set('Asia/Bangkok');
 
 	if(isset($_REQUEST['username'])) {
 		// removes backslashes
@@ -171,7 +170,7 @@ h3,h1 {
 		$email = mysqli_real_escape_string($con, $email);
 		$password = stripslashes($_REQUEST['password']);
 		$password = mysqli_real_escape_string($con, $password);
-		$trn_date = date("date_default_timezone_set"); 
+		$trn_date = date("Y-m-d H:i:s");
 
 		$query = "INSERT INTO users (username , password, email, trn_date)
 					VALUES ('$username', '".md5($password)."', '$email', '$trn_date')";
