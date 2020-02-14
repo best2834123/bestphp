@@ -171,32 +171,42 @@ h3,h1 {
 		$password = stripslashes($_REQUEST['password']);
 		$password = mysqli_real_escape_string($con, $password);
 		$trn_date = date("Y-m-d H:i:s");
+		
+		$query = "SELECT * FROM users WHERE username = $username";
+		$result = mysqli_query($con, $query);
 
-		$query = "INSERT INTO users (username , password, email, trn_date)
+		if (mysqli_num_rows($result) > 0) {
+			echo"มีชื่อผู้นี้ใช้แล้ว"
+           
+         } else {
+            $query = "INSERT INTO users (username , password, email, trn_date)
 					VALUES ('$username', '".md5($password)."', '$email', '$trn_date')";
 
-		$result = mysqli_query($con, $query);
-		// if ( !empty( $error = mysqli_error($con) ) )
-		// {
-		// 	echo 'Mysql error '. $error ."<br />\n";
-		// }
-		
+			$result = mysqli_query($con, $query);
+			// if ( !empty( $error = mysqli_error($con) ) )
+			// {
+			// 	echo 'Mysql error '. $error ."<br />\n";
+			// }
+			
 
-		if ($result) {
-			echo(date("Y-m-d H:i:s"));
-			echo "<div class='registration' align='center'>
-			<h3> You are registered successsfully </h3>
-			<br> Click here to <a href='login.php'>Login</a>
-			</div>";
-		}
-		else{
+			if ($result) {
+				echo(date("Y-m-d H:i:s"));
+				echo "<div class='registration' align='center'>
+				<h3> You are registered successsfully </h3>
+				<br> Click here to <a href='login.php'>Login</a>
+				</div>";
+			}
+			else{
 
-			echo "<div class='registration' align='center'>
-			<h2 color='green'> You are registered successsfully</h2>
-			<br> Click here to <a href='login.php'> Login </a>
-			</div>";
+				echo "<div class='registration' align='center'>
+				<h2 color='green'> You are registered successsfully</h2>
+				<br> Click here to <a href='login.php'> Login </a>
+				</div>";
+			
+			}
+         }
+
 		
-		}
 	}
 	else{
 	
