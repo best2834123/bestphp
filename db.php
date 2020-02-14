@@ -1,6 +1,6 @@
 <?php
 	
-	$con = mysqli_connect("localhost", "root", "", "register");
+	$con = mysqli_connect("localhost", "root", "", "t-vintage");
 
 	// chack connection
 	if (mysqli_connect_error()) {
