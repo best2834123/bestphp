@@ -159,7 +159,7 @@ h3,h1 {
 	<?php
 		require('db.php');
 		// if form submitted, insert values into the database.
-	echo(date("Y-m-d H:i:s"));
+	
 	if(isset($_REQUEST['username'])) {
 		// removes backslashes
 		
@@ -183,9 +183,9 @@ h3,h1 {
 		
 
 		if ($result) {
-			echo($result);
 			echo "<div class='registration' align='center'>
-			<h3> You are registered successsfully</h3>
+			<h3>date('Y-m-d H:i:s')</h3>
+			<h3> You are registered successsfully </h3>
 			<br> Click here to <a href='login.php'>Login</a>
 			</div>";
 		}
