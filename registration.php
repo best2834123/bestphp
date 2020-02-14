@@ -176,7 +176,7 @@ h3,h1 {
 		$result = mysqli_query($con, $query);
 
 		if (mysqli_num_rows($result) > 0) {
-			echo"มีชื่อผู้นี้ใช้แล้ว"
+			echo"มีชื่อผู้นี้ใช้แล้ว";
            
          } else {
             $query = "INSERT INTO users (username , password, email, trn_date)
