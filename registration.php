@@ -172,7 +172,7 @@ h3,h1 {
 		$password = mysqli_real_escape_string($con, $password);
 		$trn_date = date("Y-m-d H:i:s");
 		
-		$query = "SELECT * FROM users WHERE username = $username";
+		$query = "SELECT * FROM users WHERE username = '$username'";
 		$result = mysqli_query($con, $query);
 
 		if (mysqli_num_rows($result) > 0) {
@@ -189,8 +189,7 @@ h3,h1 {
 			// }
 			
 
-			if ($result) {
-				echo(date("Y-m-d H:i:s"));
+			if ($result) {	
 				echo "<div class='registration' align='center'>
 				<h3> You are registered successsfully </h3>
 				<br> Click here to <a href='login.php'>Login</a>
