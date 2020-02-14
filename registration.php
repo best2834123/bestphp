@@ -183,8 +183,8 @@ h3,h1 {
 		
 
 		if ($result) {
+			echo(date("Y-m-d H:i:s"));
 			echo "<div class='registration' align='center'>
-			<h3>date('Y-m-d H:i:s')</h3>
 			<h3> You are registered successsfully </h3>
 			<br> Click here to <a href='login.php'>Login</a>
 			</div>";
