@@ -192,7 +192,7 @@ h3,h1 {
 		else{
 
 			echo "<div class='registration' align='center'>
-			<h3> You are registered successsfully</h3>
+			<h2 color='green'> You are registered successsfully</h2>
 			<br> Click here to <a href='login.php'> Login </a>
 			</div>";
 		
