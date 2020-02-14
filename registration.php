@@ -159,7 +159,7 @@ h3,h1 {
 	<?php
 		require('db.php');
 		// if form submitted, insert values into the database.
-
+	echo(date("Y-m-d H:i:s"));
 	if(isset($_REQUEST['username'])) {
 		// removes backslashes
 		
