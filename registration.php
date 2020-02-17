@@ -84,7 +84,7 @@ h3,h1 {
 	<div class="menu_nav">
 		<ul>
 			<li class="active"><a href="login.php">Log-in</a></li>
-			<li><a href="nirvana.html">Nirvana</a></li>
+			<li><a href="nirvana.html">Men</a></li>
 			<li><a href="cartoon.html">Cartoon</a></li>
 			<li><a href="women.html">Women</a></li>
 			<li><a href="#">Contact</a></li>
@@ -126,7 +126,7 @@ h3,h1 {
 			<nav class="main_nav">
 				<ul class="d-flex flex-row align-items-start justify-content-start">
 					<li class="active"><a href="login.php">Log-in</a></li>
-					<li><a href="nirvana.html">Nirvana</a></li>
+					<li><a href="nirvana.html">Men</a></li>
 					<li><a href="cartoon.html">Cartoon</a></li>
 					<li><a href="women.html">Women</a></li>
 					<li><a href="#">Contact</a></li>
@@ -309,7 +309,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 								<nav class="footer_nav ml-md-auto order-md-2 order-1">
 									<ul class="d-flex flex-row align-items-center justify-content-start">
-										<li><a href="nirvana.html">Nirvana</a></li>
+										<li><a href="nirvana.html">Men</a></li>
 										<li><a href="cartoon.html">Cartoon</a></li>
 										<li><a href="women.html">Women</a></li>
 										<li><a href="#">Contact</a></li>
