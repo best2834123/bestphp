@@ -179,7 +179,7 @@ h3 {
 			if($row == 1) {
 				$_SESSION['username'] = $username;
 				// Redirect user to index.php
-				header("Location:index.html");
+				header('Location: index.php');
 			} else {
 				echo "
 				<div class ='form login' align='center'>
