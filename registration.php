@@ -257,7 +257,7 @@ h3,h1 {
 								<div class="footer_title">Support</div>
 								<ul class="footer_list">
 									<li>
-										<a href="#"><div>Customer Service<div class="footer_tag_1">online now</div></div></a>
+										<a href="https://line.me/R/ti/p/%40500yyilj"><div>Customer Service<div class="footer_tag_1">online now</div></div></a>
 									</li>
 									<li>
 										<a href="#"><div>Return Policy</div></a>
