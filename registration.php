@@ -322,8 +322,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			</div>
 		</footer>
 	</div>
-	<script async>(function(w, d) { w.CollectId = "5e328ccf33541d6404e8b3ef"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
-		
+	<script async>(function(w, d) { w.CollectId = "5e2668f9c07d8746c2a25839"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>	
 </div>
 
 <script src="js/jquery-3.2.1.min.js"></script>
